@@ -190,7 +190,7 @@ About
 }
 
 .skills table td {
-  font: 14px/1.4 "montserrat", sans-serif;
+  font: bold 14px/1.4 "montserrat", sans-serif;
   color: white;
   padding: 15px;
 }
