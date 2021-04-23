@@ -92,6 +92,30 @@ nav li  {
   animation: 1s spin;
 }
 
+.headers {
+  background: #f47f6f;
+  text-align: center;
+  color: white;
+  padding: 90px 0;
+}
+
+.headers p{
+  color: white;
+}
+
+.top-header {
+  background: #d9ccc4;
+  text-align: center;
+  color: white;
+  padding: 90px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background: #f5f3f1;
+  padding: 20px;
+}
 /*=======================================
 
   Home Page Styling
@@ -128,6 +152,54 @@ main {
     font-size: 30px;
 }
 
+/*=======================================
+
+About
+
+========================================*/
+
+.profile {
+    float: left;
+    padding: 20px;
+    margin: -49px 0 0 70px;
+}
+
+.about-text {
+    background: #d9ccc4;
+    padding: 20px;
+    max-width: 70%;
+    margin: 0 auto;
+    min-height: 500px;
+}
+
+.skills li {
+  list-style-type: none;
+}
+
+.about-me {
+    padding-top: 80px;
+    position: relative;
+    padding-bottom: 180px;
+}
+
+.skills {
+    background: #f47f6f;
+    width: 500px;
+    margin: 0 auto;
+    position: absolute;
+}
+/*.profile,
+.about-me{
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.profile {
+  text-align: right;
+}*/
 
 
 /*=======================================
