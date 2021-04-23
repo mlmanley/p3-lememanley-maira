@@ -55,15 +55,23 @@ nav {
     box-sizing: border-box;
 }
 
+header nav li {
+    background: #d9ccc4;
+    padding: 10px;
+    margin: 5px;
+}
+
 nav ul li a {
   text-decoration: none;
   font: 18px "montserrat", sans-serif;
   color: #404041;
   padding: 20px;
+  transition: 0.3s;
 }
 
 nav ul li a:hover {
   color: #f47f6f;
+  transition: 0.3s;
 }
 
 .logo-container,
@@ -72,6 +80,22 @@ nav li  {
     display: inline-block;
     vertical-align: middle;
     text-align:right;
+}
+
+.sub-menu {
+    display: none;
+}
+
+nav>ul>li {
+  position: relative;
+}
+
+.menu-item:hover .sub-menu {
+    display: block;
+    position: absolute;
+    top: 50px;
+    background: #3c3c3c;
+    width: 100%;
 }
 
 .logo-container {
