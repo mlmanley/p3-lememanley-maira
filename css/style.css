@@ -10,11 +10,16 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1,
 h2 {
-  font-family: "mencken-std-head", sans-serif;
+  font-family: "mencken-std-head", serif;
   letter-spacing: .03em;
   line-height: 1.2;
+  padding-bottom: 10px;
 }
 
 h2 {
@@ -24,22 +29,10 @@ h2 {
 }
 
 p {
-  font: 14px/1.4 "montserrat", sans-serif;
+  font: 16px/1.4 "montserrat", serif;
   color: #404041;
 }
 
-footer {
-  text-align: center;
-  padding: 40px 0;
-  background: #f47f6f;
-}
-
-footer p,
-.linkedin {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0 3px;
-}
 
 /*=======================================
 
@@ -92,30 +85,6 @@ nav li  {
   animation: 1s spin;
 }
 
-.headers {
-  background: #f47f6f;
-  text-align: center;
-  color: white;
-  padding: 90px 0;
-}
-
-.headers p{
-  color: white;
-}
-
-.top-header {
-  background: #d9ccc4;
-  text-align: center;
-  color: white;
-  padding: 90px 0;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-  background: #f5f3f1;
-  padding: 20px;
-}
 /*=======================================
 
   Home Page Styling
@@ -151,6 +120,52 @@ main {
     color: white;
     font-size: 30px;
 }
+
+.headings {
+  background: #f47f6f;
+  text-align: center;
+  color: white;
+  padding: 70px 0;
+}
+
+.headings p {
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.top-heading {
+  background: #404041;
+  text-align: center;
+  color: white;
+  padding: 90px 0;
+}
+
+.top-heading p {
+  color: white;
+}
+
+.top-home {
+  width:100%
+  margin: 0 auto;
+}
+.webdesign-box,
+.video-box {
+  background: #f47f6f;
+  padding: 20px;
+  width: 25%;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background: #f5f3f1;
+  padding: 20px;
+  background-attachment: fixed;
+}
 /*=======================================
 
 About
@@ -171,29 +186,35 @@ About
     min-height: 500px;
 }
 
-.skills li {
-  list-style-type: none;
+.about-text p{
+  font-size: 14px;
 }
-
 .about-me {
-    padding-top: 90px;
+    padding-top: 120px;
     position: relative;
-    padding-bottom: 180px;
+    padding-bottom: 300px;
 }
 
 .skills {
     background: #f47f6f;
-    width: 40%;
-    margin: 0 auto;
+    width: 35%;
     position: absolute;
     padding: 20px;
+    left: 450px;
+    bottom: 120px;
 }
 
 .skills table td {
-  font: bold 14px/1.4 "montserrat", sans-serif;
+  font: 14px/1.4 "montserrat", sans-serif;
   color: white;
-  padding: 15px;
+  padding: 15px 20px;
 }
+
+.skills h2{
+  color: white;
+  font-size: 26px;
+}
+
 /*.profile,
 .about-me{
   width: 45%;
@@ -314,6 +335,25 @@ textarea {
     border: 2px solid #f47f6f;
   }
 
+
+  /*=======================================
+
+    Animation
+
+  ========================================*/
+
+  footer {
+    text-align: center;
+    padding: 40px 0;
+    background: #f47f6f;
+  }
+
+  footer p,
+  .linkedin {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 3px;
+  }
 
 /*=======================================
 
