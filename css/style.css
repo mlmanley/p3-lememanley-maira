@@ -189,9 +189,10 @@ About
     padding: 20px;
 }
 
-.skills ul li {
+.skills table td {
   font: 14px/1.4 "montserrat", sans-serif;
   color: white;
+  padding: 15px;
 }
 /*.profile,
 .about-me{
