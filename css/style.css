@@ -46,32 +46,7 @@ header {
     position: fixed;
     z-index: 99;
     top: 0;
-    border-bottom: 1px solid #f47f6f;
-}
-
-nav {
-    width: 75%;
-    padding-right: 35px;
-    box-sizing: border-box;
-}
-
-header nav li {
-    background: #d9ccc4;
-    padding: 10px;
-    margin: 5px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  font: 18px "montserrat", sans-serif;
-  color: #404041;
-  padding: 20px;
-  transition: 0.3s;
-}
-
-nav ul li a:hover {
-  color: #f47f6f;
-  transition: 0.3s;
+    border-bottom: 3px solid #f47f6f;
 }
 
 .logo-container,
@@ -82,12 +57,39 @@ nav li  {
     text-align:right;
 }
 
-.sub-menu {
-    display: none;
+nav {
+    width: 75%;
+    padding-right: 35px;
+    box-sizing: border-box;
 }
 
-nav>ul>li {
-  position: relative;
+nav > ul > li {
+    display: inline-block;
+    width: 20%;
+    margin-bottom: 2px;
+    position: relative;
+}
+
+header nav li {
+    background: #d9ccc4;
+    padding: 12px;
+    margin: 5px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font: 18px "montserrat", sans-serif;
+  color: #404041;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #f47f6f;
+  transition: 0.3s;
+}
+
+.sub-menu {
+    display: none;
 }
 
 .menu-item:hover .sub-menu {
@@ -111,14 +113,9 @@ nav>ul>li {
 
 /*=======================================
 
-  Home Page Styling
+Top section Styling
 
 ========================================*/
-
-main {
-    width: 100%;
-    margin: 120px auto 0px;
-}
 
 .top-section {
   position: relative;
@@ -145,11 +142,35 @@ main {
     font-size: 30px;
 }
 
+/*=======================================
+
+Home Page Styling
+
+========================================*/
+
+main {
+    width: 100%;
+    margin: 120px auto 0px;
+}
+
 .headings {
   background: #f47f6f;
   text-align: center;
   color: white;
   padding: 70px 0;
+  position: relative;
+}
+
+.headings:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 5px dotted white;
+    margin: 48px auto;
+    max-width: 584px;
 }
 
 .headings p {
@@ -158,29 +179,9 @@ main {
     margin: 0 auto;
 }
 
-.top-heading {
-  background: #404041;
-  text-align: center;
-  color: white;
-  padding: 90px 0;
-}
-
-.top-heading p {
-  color: white;
-}
-
 .top-home {
   width:100%
   margin: 0 auto;
-}
-.webdesign-box,
-.video-box {
-  background: #f47f6f;
-  padding: 20px;
-  width: 25%;
-  display: inline-block;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .container {
@@ -213,11 +214,19 @@ About
 .about-text p{
   font-size: 14px;
 }
+
 .about-me {
-    padding-top: 120px;
+    padding-top: 10px;
     position: relative;
-    padding-bottom: 300px;
+    padding-bottom: 268px;
 }
+
+.about-heading {
+    color: #404041;
+    padding: 30px 0 70px 94px;
+    font-size: 40px;
+}
+
 
 .skills {
     background: #f47f6f;
@@ -226,6 +235,25 @@ About
     padding: 20px;
     left: 450px;
     bottom: 120px;
+    border-radius: 1px;
+}
+
+.skills h2{
+  color: white;
+  font-size: 26px;
+  padding-bottom: 12px;
+}
+
+.skills h2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 5px dotted white;
+    margin: 0 22px 177px;
+    max-width: 180px;
 }
 
 .skills table td {
@@ -234,10 +262,6 @@ About
   padding: 15px 20px;
 }
 
-.skills h2{
-  color: white;
-  font-size: 26px;
-}
 
 /*.profile,
 .about-me{
@@ -251,6 +275,31 @@ About
 .profile {
   text-align: right;
 }*/
+
+/*=======================================
+
+Porfolio styling
+
+========================================*/
+.indesign,
+.photoshop,
+.video-projects {
+    background: #d9ccc4;
+    max-width: 97%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.video-projects {
+  vertical-align: middle;
+}
+/*=======================================
+
+  Video Projects styling
+
+========================================*/
+
+
 
 /*=======================================
 
@@ -362,7 +411,7 @@ textarea {
 
   /*=======================================
 
-    Animation
+  Footer Styling
 
   ========================================*/
 
@@ -377,6 +426,7 @@ textarea {
     display: inline-block;
     vertical-align: middle;
     margin: 0 3px;
+    color: white;
   }
 
 /*=======================================
