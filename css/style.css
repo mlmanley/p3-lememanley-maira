@@ -75,6 +75,12 @@ header nav li {
     background: #d9ccc4;
     padding: 12px;
     margin: 5px;
+    transition: 0.3s;
+}
+
+header nav li:active {
+  background: #404041;
+  transition: 0.3s;
 }
 
 nav ul li a {
@@ -140,7 +146,7 @@ Top section Styling
     margin: 150px;
     z-index: 98;
     color: white;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 /*=======================================
@@ -155,11 +161,10 @@ main {
 }
 
 .headings {
-  background: #f47f6f;
-  text-align: center;
-  color: white;
-  padding: 70px 0;
-  position: relative;
+    background: #f47f6f;
+    color: white;
+    padding: 70px 0 70px 206px;
+    position: relative;
 }
 
 .headings:before {
@@ -170,27 +175,25 @@ main {
     right: 0;
     left: 0;
     border-bottom: 5px dotted white;
-    margin: 48px auto;
+    margin: 0 0 51px 203px;
     max-width: 584px;
 }
 
 .headings p {
     color: white;
     max-width: 600px;
-    margin: 0 auto;
 }
 
 .top-home {
-  width:100%
+  width:100%;
   margin: 0 auto;
 }
 
 .container {
-  width: 80%;
-  margin: 0 auto;
-  background: #f5f3f1;
-  padding: 20px;
-  background-attachment: fixed;
+    width: 80%;
+    margin: 0 auto;
+    background: #f5f3f1;
+    padding: 30px 20px;
 }
 /*=======================================
 
@@ -283,32 +286,40 @@ Web design styling
 
 ========================================*/
 .projects,
-.project-left,
-.project-right {
+.projects-vertical {
   background: #d9ccc4;
   padding: 20px;
-  margin: 5px;
+  margin: 10px auto;
+}
+
+.projects img,
+.projects-vertical img {
+  margin: 3px;
 }
 
 .design-heading {
   font-size: 40px;
+  padding: 20px 0;
+  color: #f47f6f;
+  position:relative;
 }
 
-.project-left,
-.project-right {
-  width: 45%;
-  display: inline-block;
+.projects-vertical {
+  margin-bottom: 50px;
 }
+
 /*=======================================
 
   Video Projects styling
 
 ========================================*/
+
 .video-projects {
-  padding: 10px;
+    padding: 10px 10px;
 }
+
 iframe {
-  margin: 3px;
+  margin: 4px;
 }
 /*=======================================
 
