@@ -15,7 +15,8 @@ html {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: "mencken-std-head", serif;
   letter-spacing: .03em;
   line-height: 1.2;
@@ -278,29 +279,37 @@ About
 
 /*=======================================
 
-Porfolio styling
+Web design styling
 
 ========================================*/
-.indesign,
-.photoshop,
-.video-projects {
-    background: #d9ccc4;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
+.projects,
+.project-left,
+.project-right {
+  background: #d9ccc4;
+  padding: 20px;
+  margin: 5px;
 }
 
-.video-projects {
-  vertical-align: middle;
+.design-heading {
+  font-size: 40px;
+}
+
+.project-left,
+.project-right {
+  width: 45%;
+  display: inline-block;
 }
 /*=======================================
 
   Video Projects styling
 
 ========================================*/
-
-
-
+.video-projects {
+  padding: 10px;
+}
+iframe {
+  margin: 3px;
+}
 /*=======================================
 
   Contact info styling

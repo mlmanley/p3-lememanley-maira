@@ -6,6 +6,7 @@
 
     <!-- css link -->
     <link rel="stylesheet" href="css/style.css">
+    <link href="lightbox/src/css/lightbox.css" rel="stylesheet" />
 
     <!-- adobe fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/huw2gor.css">
@@ -94,21 +95,34 @@
       </div>
 
       <section class="container">
-        <h2>Photoshop</h2>
-        <div class="photoshop">
+        <h2 class="design-heading">Photoshop</h2>
+
+        <div class="projects">
+          <h3>Social Media Posts</h3>
           <img src="images/instaproject.jpg" alt="Instagram Post Project" title="Instagram Post Project" width="300">
           <img src="images/facebookproject.gif" alt="Facebook Post Project" title="Facebook Post Project" width="450">
           <img src="images/twitterproject.jpg" alt="Twitter Post Project" title="Twitter Post Project" width="420">
+        </div>
+        <div class="project-left">
+          <h3>Website Redesign</h3>
           <img src="images/abreu.jpg" alt="Website Design Project" title="Website Design Project" width="220">
           <img src="images/abreu-mobile.jpg" alt="mobile Website Project" title="Mobile Website Project" width="141">
-          </div>
         </div>
-          <h2>InDesign</h2>
-        <div class="indesign">
-          <img src="images/brochure-a.jpg" alt="Informational Guide Project" title="Informational Guide Project" width="300">
+        <div class="project-right">
+          <h3>Email Newsletter</h3>
+          <img src="images/newsletter.jpg" alt="Website Design Project" title="Website Design Project" width="220">
+        </div>
+
+        <h2 class="design-heading">InDesign</h2>
+        <div class="projects">
+          <h3>Nonprofit Informational Guide</h3>
+          <a href="images/brochure-a.jpg" data-lightbox="image-1" data-title="My caption"><img src="images/brochure-a.jpg" alt="Informational Guide Project" title="Informational Guide Project" width="300"></a>
           <img src="images/brochure-b.jpg" alt="Informational Guide Project" title="Informational Guide Project" width="300">
           <img src="images/brochure-c.jpg" alt="Informational Guide Project" title="Informational Guide Project" width="300">
           <img src="images/brochure-d.jpg" alt="Informational Guide Project" title="Informational Guide Project" width="300">
+        </div>
+        <div class="projects">
+            <h3>Cookbook</h3>
           <img src="images/cookbook-cover.jpg" alt="Cookbook Project" title="Cookbook Project" width="310">
           <img src="images/cookbook-a.jpg" alt="Cookbook Project" title="Cookbook Project" width="310">
           <img src="images/cookbook-c.jpg" alt="Cookbook Project" title="Cookbook Project" width="310">
@@ -125,13 +139,13 @@
       <section class="container" id="video-portfolio">
 
         <div class="video-projects">
-          <iframe class="hover" src="https://player.vimeo.com/video/446512153" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          <iframe src="https://player.vimeo.com/video/446512153" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
           <iframe src="https://player.vimeo.com/video/492627799" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
           <iframe src="https://player.vimeo.com/video/492628159" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
-          <iframe src="https://player.vimeo.com/video/492628950" width="640" height="431" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          <iframe src="https://player.vimeo.com/video/492628950" width="640" height="441" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -171,16 +185,17 @@
         </section>
       </section>
     </main>
+    <footer>
+      <p>Website by Maira Manley</p>
+      <a class="linkedin" href="https://www.linkedin.com/in/mairamanley/"   target="_blank">
+        <img src="images/linkedin-gray.png" alt="Linkedin Logo" title="Linkedin Logo" width="30" />
+      </a>
+    </footer>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
-  </body>
+    <script src="lightbox/src/sj/lightbox.js"></script>
 
-  <footer>
-    <p>Website by Maira Manley</p>
-    <a class="linkedin" href="https://www.linkedin.com/in/mairamanley/"   target="_blank">
-      <img src="images/linkedin-gray.png" alt="Linkedin Logo" title="Linkedin Logo" width="30" />
-    </a>
-  </footer>
+  </body>
 
 </html>
