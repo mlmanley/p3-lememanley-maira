@@ -334,8 +334,8 @@ Web design styling
     padding-bottom: 8px;
     color: #404041;
     border-bottom: 5px dotted #404041;
-    width: 263px;
     margin: 20px 0 40px 2px;
+    text-align: center;
 }
 
 .projects-vertical {
