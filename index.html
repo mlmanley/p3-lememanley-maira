@@ -32,11 +32,11 @@
       <nav>
         <ul>
           <li class="menu-item"><a href="#home">Home</a></li>
-          <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+          <li class="menu-item"><a href="#portfolio">Portfolio</a>
             <ul class="sub-menu">
               <li class="menu-item"><a href="#webdesign">Web Design</a></li>
               <li class="menu-item"><a href="#video">Video</a></li>
-            </ul>
+            </ul></li>
           <li class="menu-item"><a href="#about">About</a></li>
           <li class="menu-item"><a href="#contact">Contact</a></li>
         </ul>
@@ -63,25 +63,21 @@
 
         <div class="skills">
           <h2>Skills</h2>
-          <table>
-            <tr>
-              <td>Adobe Photoshop</td>
-              <td>Microsoft Office</td>
-              <td>English</td>
-            </tr>
-
-            <tr>
-              <td>Adobe Indesign</td>
-              <td>Keynote</td>
-              <td>Portuguese</td>
-            </tr>
-
-            <tr>
-              <td>Html & CSS</td>
-              <td>Final Cut</td>
-              <td>Spanish</td>
-            </tr>
-          </table>
+            <ul>
+              <li>Adobe Photoshop</li>
+              <li>Adobe Indesign</li>
+              <li>Html & CSS</li>
+            </ul>
+            <ul>
+              <li>Microsoft Office</li>
+              <li>Keynote</li>
+              <li>Final Cut</li>
+            </ul>
+            <ul>
+              <li>English</li>
+              <li>Portuguese</li>
+              <li>Spanish</li>
+            </ul>
         </div>
 
       </section>
@@ -98,20 +94,20 @@
 
         <div class="projects">
           <h3>Social Media Posts</h3>
-          <img src="images/instaproject.jpg" alt="Instagram Post Project" title="Instagram Post Project" width="310">
-          <img src="images/facebookproject.gif" alt="Facebook Post Project" title="Facebook Post Project" width="480">
-          <img src="images/twitterproject.jpg" alt="Twitter Post Project" title="Twitter Post Project" width="450">
+          <a href="images/instaproject.jpg" data-lightbox="image-1" data-title="My caption"><img src="images/instaproject.jpg" alt="Instagram Post Project" title="Instagram Post Project" width="310"></a>
+          <a href="images/facebookproject.gif" data-lightbox="image-1" data-title="My caption"><img src="images/facebookproject.gif" alt="Facebook Post Project" title="Facebook Post Project" width="480"></a>
+          <a href="images/twitterproject.jpg" data-lightbox="image-1" data-title="My caption"><img src="images/twitterproject.jpg" alt="Twitter Post Project" title="Twitter Post Project" width="450"></a>
         </div>
         <div class="projects-vertical">
           <h3>Website Redesign & Email Newsletter</h3>
-          <img src="images/abreu.jpg" alt="Website Design Project" title="Website Design Project" width="300">
-          <img src="images/abreu-mobile.jpg" alt="Mobile Website Project" title="Mobile Website Project" width="193">
-          <img src="images/newsletter.jpg" alt="Newsletter" title="Newsletter" width="300">
+          <a href="images/abreu.jpg" data-lightbox="image-1" data-title="My caption"><img src="images/abreu.jpg" alt="Website Design Project" title="Website Design Project" width="300"></a>
+          <a href="images/abreu-mobile.jpg" data-lightbox="image-1" data-title="My caption"><img src="images/abreu-mobile.jpg" alt="Mobile Website Project" title="Mobile Website Project" width="193"></a>
+          <a href="images/newsletter.jpg" data-lightbox="image-1" data-title="My caption"><img src="images/newsletter.jpg" alt="Newsletter" title="Newsletter" width="300"></a>
         </div>
 
         <h2 class="design-heading">InDesign</h2>
         <div class="projects">
-            <h3>Digital Cookbook</h3>
+          <h3>Digital Cookbook</h3>
           <a href="images/cookbook-cover.jpg" data-lightbox="image-1" data-title="My caption"><img src="images/cookbook-cover.jpg" alt="Cookbook Project" title="Cookbook Project" width="329"></a>
           <a href="images/cookbook-a.jpg" data-lightbox="image-1" data-title="My caption"><img src="images/cookbook-a.jpg" alt="Cookbook Project" title="Cookbook Project" width="329"></a>
           <a href="images/cookbook-c.jpg" data-lightbox="image-1" data-title="My caption"><img src="images/cookbook-c.jpg" alt="Cookbook Project" title="Cookbook Project" width="329"></a>
@@ -134,15 +130,39 @@
       </section>
 
       <section class="container" id="video-portfolio">
-
         <div class="video-projects">
-          <iframe src="https://player.vimeo.com/video/446512153" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          <div class="individual-video">
+            <div class="text-content">
+              <h2>Project Title</h2>
+              <p>This is a description</p>
+            </div>
 
-          <iframe src="https://player.vimeo.com/video/492627799" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/446512153" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          </div>
 
-          <iframe src="https://player.vimeo.com/video/492628159" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          <div class="individual-video">
+            <div class="text-content">
+              <h2>Project Title</h2>
+              <p>This is a description</p>
+            </div>
+            <iframe src="https://player.vimeo.com/video/492627799" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          </div>
 
-          <iframe src="https://player.vimeo.com/video/492628950" width="640" height="441" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          <div class="individual-video">
+            <div class="text-content">
+              <h2>Project Title</h2>
+              <p>This is a description</p>
+            </div>
+            <iframe src="https://player.vimeo.com/video/492628159" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+          <div class="individual-video">
+            <div class="text-content">
+              <h2>Project Title</h2>
+              <p>This is a description</p>
+            </div>
+            <iframe class="axe" src="https://player.vimeo.com/video/492628950" width="640" height="441" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
       </section>
 
@@ -192,6 +212,6 @@
       </a>
     </footer>
 
-    <script src="lightbox/src/sj/lightbox.js"></script>
+    <script src="lightbox/src/js/lightbox.js"></script>
   </body>
 </html>
