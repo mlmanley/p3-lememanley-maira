@@ -301,23 +301,32 @@ Web design styling
   margin: 3px;
   transition: 0.5s;
 }
+
+.projects-vertical .scale:hover {
+  width: 290px;
+}
+
 .scale-b {
   transition: 0.5s;
 }
+
 .scale-b:hover {
-  width: 500px;
+  width: 530px;
+  transition: 0.5s;
+}
+
+.scale-c {
+  transition: 0.5s;
+}
+
+.scale-c:hover {
+  width: 470px;
   transition: 0.5s;
 }
 
 .scale:hover {
   width: 400px;
   transition: 0.5s;
-}
-
-/*.projects img:hover,
-.projects-vertical img:hover {
-    width: 400px;
-    transition: 0.5s;*/
 }
 
 .design-heading {
