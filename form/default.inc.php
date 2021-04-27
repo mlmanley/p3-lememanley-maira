@@ -8,7 +8,15 @@ header {
     position: fixed;
     z-index: 99;
     top: 0;
-    border-bottom: 1px solid #f47f6f;
+    border-bottom: 3px solid #f47f6f;
+}
+
+.logo-container,
+header nav,
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
 }
 
 nav {
@@ -17,30 +25,70 @@ nav {
     box-sizing: border-box;
 }
 
+nav > ul > li {
+    display: inline-block;
+    width: 15%;
+    margin-bottom: 2px;
+    position: relative;
+}
+
+header nav ul li {
+    background: #d9ccc4;
+    padding: 12px;
+    margin: 5px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+header nav ul li:hover {
+  background: #f47f6f;
+}
+
+header nav ul li:active {
+  background: #404041;
+  transition: 0.3s;
+}
+
 nav ul li a {
   text-decoration: none;
   font: 18px "montserrat", sans-serif;
   color: #404041;
-  padding: 20px;
+  transition: 0.3s;
+  padding: 12px;
+  text-align: center;
 }
 
 nav ul li a:hover {
-  color: #f47f6f;
+  color: white;
 }
 
-.logo-container,
-header nav,
-nav li  {
-    display: inline-block;
-    vertical-align: middle;
-    text-align:right;
+.sub-menu {
+    display: none;
+    list-style-type: none;
+
+}
+
+.menu-item:hover .sub-menu {
+    display: block;
+    position: absolute;
+    top: 45px;
+    background: #d9ccc4;
+    width: 100%;
+    text-align: center;
+    right: 0px;
 }
 
 .logo-container {
     width: 10%;
     margin-left: 120px;
     box-sizing: border-box;
+    animation: 1s spin;
 }
+
+.logo-hover:hover {
+  animation: 1s spin;
+}
+
 
 main {
     margin: 120px 0 10px;
@@ -82,21 +130,26 @@ footer p,
   <div class="logo-container">
     <div class="logo-hover">
       <a href="index.html">
-        <img src="image/logo.png" alt="Logo" title="Logo" width="120" />
+        <img src="images/logo.png" alt="Logo" title="Logo" width="120" />
       </a>
     </div>
   </div>
 
   <nav>
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li class="menu-item"><a href="#home">Home</a></li>
+      <li class="menu-item"><a href="#about">About</a></li>
+      <li class="menu-item"><a href="#portfolio">Portfolio</a>
+        <ul class="sub-menu">
+          <li class="menu-item"><a href="#webdesign">Web Design</a></li>
+          <li class="menu-item"><a href="#video">Video</a></li>
+        </ul></li>
+      <li class="menu-item"><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
 </header>
+
 
 <main>
 
@@ -110,6 +163,6 @@ footer p,
 <footer>
   <p>Website by Maira Manley</p>
   <a class="linkedin" href="https://www.linkedin.com/in/mairamanley/"   target="_blank">
-    <img src="image/linkedin-gray.png" alt="Linkedin Logo" title="Linkedin Logo" width="30" />
+    <img src="images/linkedin.png" alt="Linkedin Logo" title="Linkedin Logo" width="30" />
   </a>
 </footer>

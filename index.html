@@ -37,12 +37,12 @@
       <nav>
         <ul>
           <li class="menu-item"><a href="#home">Home</a></li>
+          <li class="menu-item"><a href="#about">About</a></li>
           <li class="menu-item"><a href="#portfolio">Portfolio</a>
             <ul class="sub-menu">
               <li class="menu-item"><a href="#webdesign">Web Design</a></li>
               <li class="menu-item"><a href="#video">Video</a></li>
             </ul></li>
-          <li class="menu-item"><a href="#about">About</a></li>
           <li class="menu-item"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -61,7 +61,7 @@
           <h2>About Me</h2>
         </div>
         <div class="profile">
-          <img src="images/profile.jpg" alt="About Photo" title="About Photo" width="350">
+          <img src="images/about-photo.jpg" alt="About Photo" title="About Photo" width="350">
         </div>
         <div class="about-text">
           <p><b>Welcome to my portfolio website!</b></p>
@@ -188,42 +188,44 @@
         </div>
       </section>
 
-      <section class="container contact-me">
-        <div class="contact-info">
-          <h2>Maira (Myra) Manley</h2>
-          <h2>Orlando-FL-USA</h2>
-          <h2><a href="mailto:contact@mairamanley.com">contact@mairamanley.com</a></h2>
-        </div>
+      <section class="container">
+        <div class="contact-container">
+          <div class="contact-info">
+            <h2>Maira (Myra) Manley</h2>
+            <h2>Orlando-FL-USA</h2>
+            <h2><a href="mailto:contact@mairamanley.com">contact@mairamanley.com</a></h2>
+          </div>
 
-        <section class="contact-form">
-          <form id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
-            <div class="name input-section" >
-              <label for="name" class="label_input_wrap">Name:</label>
-              <input type="text" name="req_name" id="name" placeholder="ex. Michael Scott"/>
-            </div>
+          <section class="contact-form">
+            <form id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+              <div class="name input-section" >
+                <label for="name" class="label_input_wrap">Name:</label>
+                <input type="text" name="req_name" id="name" placeholder="ex. Michael Scott"/>
+              </div>
 
-            <div class="email input-section">
-              <label for="email" class="label_input_wrap">Email:</label>
-              <input type="email" name="email" id="email" placeholder="mscott@example.com"/>
-            </div>
+              <div class="email input-section">
+                <label for="email" class="label_input_wrap">Email:</label>
+                <input type="email" name="email" id="email" placeholder="mscott@example.com"/>
+              </div>
 
-            <div class="comments input-section">
-              <label for="comments" class="label_input_wrap">Message:</label>
-              <textarea name="comments" id="comments" cols="70" rows="15" placeholder="Write me a message here"></textarea>
-            </div>
+              <div class="comments input-section">
+                <label for="comments" class="label_input_wrap">Message:</label>
+                <textarea name="comments" id="comments" cols="70" rows="15" placeholder="Write me a message here"></textarea>
+              </div>
 
-            <div class="submit">
-              <input type="submit" value="Send me a message!"/>
-            </div>
-          </form>
-        </section>
+              <div class="submit">
+                <input type="submit" value="Send me a message!"/>
+              </div>
+            </form>
+          </section>
+        </div>        
       </section>
     </main>
 
     <footer>
       <p>Website by Maira Manley</p>
       <a class="linkedin" href="https://www.linkedin.com/in/mairamanley/"   target="_blank">
-        <img src="images/linkedin-gray.png" alt="Linkedin Logo" title="Linkedin Logo" width="30" />
+        <img src="images/linkedin.png" alt="Linkedin Logo" title="Linkedin Logo" width="30" />
       </a>
     </footer>
 
