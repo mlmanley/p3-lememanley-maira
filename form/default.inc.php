@@ -137,14 +137,14 @@ footer p,
 
   <nav>
     <ul>
-      <li class="menu-item"><a href="#home">Home</a></li>
-      <li class="menu-item"><a href="#about">About</a></li>
-      <li class="menu-item"><a href="#portfolio">Portfolio</a>
+      <li class="menu-item"><a href="index.html">Home</a></li>
+      <li class="menu-item"><a href="index.html">About</a></li>
+      <li class="menu-item"><a href="index.html">Portfolio</a>
         <ul class="sub-menu">
-          <li class="menu-item"><a href="#webdesign">Web Design</a></li>
-          <li class="menu-item"><a href="#video">Video</a></li>
+          <li class="menu-item"><a href="index.html">Web Design</a></li>
+          <li class="menu-item"><a href="index.html">Video</a></li>
         </ul></li>
-      <li class="menu-item"><a href="#contact">Contact</a></li>
+      <li class="menu-item"><a href="index.html">Contact</a></li>
     </ul>
   </nav>
 
