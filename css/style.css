@@ -24,20 +24,22 @@ h3 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 25px;
     padding-bottom: 8px;
     color: #404041;
+    text-align: center;
 }
 
 h3 {
     color: #404041;
-    padding-top: 50px;
+    padding-top: 40px;
     font-size: 18px;
 }
 
 p {
-  font: 16px/1.4 "montserrat", serif;
-  color: #404041;
+    font: 16px/1.5 "montserrat", serif;
+    color: #404041;
+    margin: 7px 5px;
 }
 
 
@@ -219,14 +221,14 @@ About
 
 .profile {
     float: left;
-    padding: 20px;
-    margin: -49px 0 0 70px;
+    padding: 10px 20px;
+    margin: -39px 0 0 70px;
 }
 
 .about-text {
     background: #d9ccc4;
     padding: 20px;
-    max-width: 70%;
+    max-width: 67%;
     margin: 0 auto;
     min-height: 420px;
 }
@@ -236,20 +238,14 @@ About
 }
 
 .about-me {
-    padding-top: 10px;
-    padding-bottom: 120px;
+    padding-top: 12px;
+    padding-bottom: 90px;
 }
 
 .about-heading {
     max-width: 584px;
-    margin: 27px auto 45px;
+    margin: 35px auto 45px;
     position: relative;
-}
-
-.about-heading h2 {
-    color: #404041;
-    font-size:30px;
-    text-align: center;
 }
 
 .about-heading:before {
@@ -276,7 +272,6 @@ About
 
 .skills h2 {
   color: white;
-  font-size: 26px;
   padding-bottom: 5px;
 }
 
@@ -337,19 +332,19 @@ Web design styling
   transition: 0.5s;
 }
 
+.scale:hover {
+    width: 355px;
+    transition: 0.5s;
+}
+
 .scale-b:hover {
   width: 530px;
   transition: 0.5s;
 }
 
 .scale-c:hover {
-  width: 470px;
-  transition: 0.5s;
-}
-
-.scale:hover {
-  width: 400px;
-  transition: 0.5s;
+    width: 440px;
+    transition: 0.5s;
 }
 
 .projects-vertical {
@@ -358,7 +353,6 @@ Web design styling
 
 .projects h2{
   position: relative;
-  font-size: 23px;
 }
 
 .projects h2:before {
@@ -390,15 +384,19 @@ Web design styling
     display: inline-block;
 }
 
-.text-content h2,
+.text-content h3,
 .text-content p {
     color: white;
+}
+
+.text-content p {
+  font-size: 13px;
 }
 
 .individual-video .text-content {
     position: absolute;
     top: 0;
-    font-size: 32px;
+    font-size: 30px;
     left: 0;
     display: none;
     bottom: 0;
@@ -467,6 +465,7 @@ iframe {
     color: white;
     line-height: 2;
     text-align: right;
+    font-size: 20px;
 }
 
 .contact-info h2 a {
