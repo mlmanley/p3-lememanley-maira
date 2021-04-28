@@ -89,9 +89,9 @@ nav ul li a:hover {
   animation: 1s spin;
 }
 
-
 main {
-    margin: 120px 0 10px;
+    max-width: 100%;
+    margin: 120px auto 0px;
 }
 
 .processor {
@@ -147,14 +147,14 @@ footer p,
 
     <nav>
       <ul>
-        <li class="menu-item"><a href="index.html">Home</a></li>
-        <li class="menu-item"><a href="index.html">About</a></li>
-        <li class="menu-item"><a href="index.html">Portfolio</a>
+        <li class="menu-item"><a href="index.html#home">Home</a></li>
+        <li class="menu-item"><a href="index.html#about">About</a></li>
+        <li class="menu-item"><a href="index.html#portfolio">Portfolio</a>
           <ul class="sub-menu">
-            <li class="menu-item"><a href="index.html">Web Design</a></li>
-            <li class="menu-item"><a href="index.html">Video</a></li>
+            <li class="menu-item"><a href="index#webdesign.html">Web Design</a></li>
+            <li class="menu-item"><a href="index#video.html">Video</a></li>
           </ul></li>
-        <li class="menu-item"><a href="index.html">Contact</a></li>
+        <li class="menu-item"><a href="index.html#contact">Contact</a></li>
       </ul>
     </nav>
 
