@@ -104,7 +104,11 @@ main {
 }
 
 .processor p {
+<<<<<<< HEAD
     font-family: 'montserrat', sans-serif;
+=======
+    font-family: 'montserrat';
+>>>>>>> 5f1134dde44a856c66efe1223d294b12b5e1968d
 }
 
 footer {
@@ -118,7 +122,11 @@ footer p,
   display: inline-block;
   vertical-align: middle;
   margin: 0 3px;
+<<<<<<< HEAD
   font: 12px 'montserrat', sans-serif;
+=======
+  font: 12px 'montserrat', sans serif;
+>>>>>>> 5f1134dde44a856c66efe1223d294b12b5e1968d
   color: #404041;
 }
 
