@@ -118,7 +118,7 @@ footer p,
   display: inline-block;
   vertical-align: middle;
   margin: 0 3px;
-  font: 12px 'montserrat', sans serif;
+  font: 12px 'montserrat', sans-serif;
   color: #404041;
 }
 
