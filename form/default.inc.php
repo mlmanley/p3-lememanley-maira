@@ -1,17 +1,5 @@
 <style type="text/css">
 
-h1 {
-font-family: "mencken-std-head", sans-serif;
-letter-spacing: .03em;
-line-height: 1.2;
-padding-bottom: 15px;
-}
-
-p {
-    font: 16px/1.5 "montserrat", serif;
-    color: #404041;
-    margin: 7px 5px;
-}
 
 header {
     background: #f5f3f1;
@@ -116,17 +104,7 @@ main {
 }
 
 .processor p {
-    font: 16px/1.5 "montserrat", serif;
-    color: #404041;
-    margin: 7px 5px;
-}
-
-.processor h1 {
-  font-family: "mencken-std-head", sans-serif;
-  letter-spacing: .03em;
-  line-height: 1.2;
-  padding-bottom: 15px;
-
+    font-family: 'montserrat';
 }
 
 footer {
@@ -140,8 +118,8 @@ footer p,
   display: inline-block;
   vertical-align: middle;
   margin: 0 3px;
-  font: 12px 'montserrat', sans-serif;
-  color: white;
+  font: 12px 'montserrat', sans serif;
+  color: #404041;
 }
 
 </style>
@@ -161,7 +139,7 @@ footer p,
     <ul>
       <li class="menu-item"><a href="index.html#home">Home</a></li>
       <li class="menu-item"><a href="index.html#about">About</a></li>
-      <li class="menu-item"><a href="index.html#portfolio">Portfolio</a></li>        
+      <li class="menu-item"><a href="index.html#portfolio">Portfolio</a></i>
       <li class="menu-item"><a href="index.html#contact">Contact</a></li>
     </ul>
   </nav>
